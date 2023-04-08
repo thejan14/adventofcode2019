@@ -2,6 +2,7 @@
 name = "adventofcode2019"
 version = "0.1.0"
 edition = "2021"
+default-run = "day01part1"
 
 [[bin]]
 name = "day01part1"

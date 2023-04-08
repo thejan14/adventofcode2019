@@ -1,0 +1,208 @@
+[package]
+name = "adventofcode2019"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "day01part1"
+path = "day01/part1/main.rs"
+
+[[bin]]
+name = "day01part2"
+path = "day01/part2/main.rs"
+
+[[bin]]
+name = "day02part1"
+path = "day02/part1/main.rs"
+
+[[bin]]
+name = "day02part2"
+path = "day02/part2/main.rs"
+
+[[bin]]
+name = "day03part1"
+path = "day03/part1/main.rs"
+
+[[bin]]
+name = "day03part2"
+path = "day03/part2/main.rs"
+
+[[bin]]
+name = "day04part1"
+path = "day04/part1/main.rs"
+
+[[bin]]
+name = "day04part2"
+path = "day04/part2/main.rs"
+
+[[bin]]
+name = "day05part1"
+path = "day05/part1/main.rs"
+
+[[bin]]
+name = "day05part2"
+path = "day05/part2/main.rs"
+
+[[bin]]
+name = "day06part1"
+path = "day06/part1/main.rs"
+
+[[bin]]
+name = "day06part2"
+path = "day06/part2/main.rs"
+
+[[bin]]
+name = "day07part1"
+path = "day07/part1/main.rs"
+
+[[bin]]
+name = "day07part2"
+path = "day07/part2/main.rs"
+
+[[bin]]
+name = "day08part1"
+path = "day08/part1/main.rs"
+
+[[bin]]
+name = "day08part2"
+path = "day08/part2/main.rs"
+
+[[bin]]
+name = "day09part1"
+path = "day09/part1/main.rs"
+
+[[bin]]
+name = "day09part2"
+path = "day09/part2/main.rs"
+
+[[bin]]
+name = "day010part1"
+path = "day010/part1/main.rs"
+
+[[bin]]
+name = "day010part2"
+path = "day010/part2/main.rs"
+
+[[bin]]
+name = "day011part1"
+path = "day011/part1/main.rs"
+
+[[bin]]
+name = "day011part2"
+path = "day011/part2/main.rs"
+
+[[bin]]
+name = "day012part1"
+path = "day012/part1/main.rs"
+
+[[bin]]
+name = "day012part2"
+path = "day012/part2/main.rs"
+
+[[bin]]
+name = "day013part1"
+path = "day013/part1/main.rs"
+
+[[bin]]
+name = "day013part2"
+path = "day013/part2/main.rs"
+
+[[bin]]
+name = "day014part1"
+path = "day014/part1/main.rs"
+
+[[bin]]
+name = "day014part2"
+path = "day014/part2/main.rs"
+
+[[bin]]
+name = "day015part1"
+path = "day015/part1/main.rs"
+
+[[bin]]
+name = "day015part2"
+path = "day015/part2/main.rs"
+
+[[bin]]
+name = "day016part1"
+path = "day016/part1/main.rs"
+
+[[bin]]
+name = "day016part2"
+path = "day016/part2/main.rs"
+
+[[bin]]
+name = "day017part1"
+path = "day017/part1/main.rs"
+
+[[bin]]
+name = "day017part2"
+path = "day017/part2/main.rs"
+
+[[bin]]
+name = "day018part1"
+path = "day018/part1/main.rs"
+
+[[bin]]
+name = "day018part2"
+path = "day018/part2/main.rs"
+
+[[bin]]
+name = "day019part1"
+path = "day019/part1/main.rs"
+
+[[bin]]
+name = "day019part2"
+path = "day019/part2/main.rs"
+
+[[bin]]
+name = "day020part1"
+path = "day020/part1/main.rs"
+
+[[bin]]
+name = "day020part2"
+path = "day020/part2/main.rs"
+
+[[bin]]
+name = "day021part1"
+path = "day021/part1/main.rs"
+
+[[bin]]
+name = "day021part2"
+path = "day021/part2/main.rs"
+
+[[bin]]
+name = "day022part1"
+path = "day022/part1/main.rs"
+
+[[bin]]
+name = "day022part2"
+path = "day022/part2/main.rs"
+
+[[bin]]
+name = "day023part1"
+path = "day023/part1/main.rs"
+
+[[bin]]
+name = "day023part2"
+path = "day023/part2/main.rs"
+
+[[bin]]
+name = "day024part1"
+path = "day024/part1/main.rs"
+
+[[bin]]
+name = "day024part2"
+path = "day024/part2/main.rs"
+
+[[bin]]
+name = "day025part1"
+path = "day025/part1/main.rs"
+
+[[bin]]
+name = "day025part2"
+path = "day025/part2/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]

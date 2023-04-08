@@ -4,11 +4,11 @@ use std::time::Instant;
 
 enum InstructionType {
     Addition = 1,
-    Multiplication = 2, 
+    Multiplication = 2,
 }
 
 fn main() {
-    let data = fs::read_to_string(Path::new("../input.txt")).unwrap();
+    let data = fs::read_to_string(Path::new("day02/input.txt")).unwrap();
     let now = Instant::now();
 
     let mut programm = data
@@ -36,13 +36,15 @@ fn main() {
     println!("{result} {elapsed:.2?}");
 }
 
-fn exectute_instruction(programm: &mut Vec<usize>, pos: usize, instruction: InstructionType){
+fn exectute_instruction(programm: &mut Vec<usize>, pos: usize, instruction: InstructionType) {
     if programm.len() > pos + 2 {
         let lefthand_pos = programm[pos + 1];
         let righthand_pos = programm[pos + 2];
         let target_pos = programm[pos + 3];
         match instruction {
-            InstructionType::Addition => programm[target_pos] = programm[lefthand_pos] + programm[righthand_pos],
+            InstructionType::Addition => {
+                programm[target_pos] = programm[lefthand_pos] + programm[righthand_pos]
+            }
             _ => programm[target_pos] = programm[lefthand_pos] * programm[righthand_pos],
         }
     }

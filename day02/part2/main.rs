@@ -4,11 +4,11 @@ use std::time::Instant;
 
 enum Instruction {
     Addition = 1,
-    Multiplication = 2, 
+    Multiplication = 2,
 }
 
 fn main() {
-    let data = fs::read_to_string(Path::new("../input.txt")).unwrap();
+    let data = fs::read_to_string(Path::new("day02/input.txt")).unwrap();
     let now = Instant::now();
 
     let memory = data
@@ -55,13 +55,15 @@ fn run_intcode(memory: &mut Vec<usize>) -> usize {
     memory[0]
 }
 
-fn exectute_instruction(memory: &mut Vec<usize>, address: usize, instruction: Instruction){
+fn exectute_instruction(memory: &mut Vec<usize>, address: usize, instruction: Instruction) {
     if memory.len() > address + 2 {
         let lefthand_address = memory[address + 1];
         let righthand_address = memory[address + 2];
         let target_address = memory[address + 3];
         match instruction {
-            Instruction::Addition => memory[target_address] = memory[lefthand_address] + memory[righthand_address],
+            Instruction::Addition => {
+                memory[target_address] = memory[lefthand_address] + memory[righthand_address]
+            }
             _ => memory[target_address] = memory[lefthand_address] * memory[righthand_address],
         }
     }

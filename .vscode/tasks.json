@@ -1,0 +1,16 @@
+{
+  "version": "2.0.0",
+  "inputs": [
+    {
+      "id": "relativeFileDirnameWithoutSeparator",
+      "type": "command",
+      "command": "extension.commandvariable.transform",
+      "args": {
+        "text": "${relativeFileDirname}",
+        "find": "\\\\|\\/",
+        "replace": "",
+        "flags": "g"
+      }
+    }
+  ]
+}

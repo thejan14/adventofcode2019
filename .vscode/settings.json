@@ -1,0 +1,10 @@
+{
+  "files.eol": "\n",
+  "[rust]": {
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

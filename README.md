@@ -12,4 +12,7 @@ Advent of code is made by [Eric Wastl](https://github.com/topaz).
 For more information see [about Advent of Code](https://adventofcode.com/2019/about).
 
 ## Running the solutions
-TODO
+Install the rust toolchain via `rustup` (https://www.rust-lang.org/tools/install). Run the code via 
+```
+cargo run --bin=dayXXpartX
+```

@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=${input:relativeFileDirnameWithoutSeparator}",
+          "--package=adventofcode2019"
+        ]
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "relativeFileDirnameWithoutSeparator",
+      "type": "command",
+      "command": "extension.commandvariable.transform",
+      "args": {
+        "text": "${relativeFileDirname}",
+        "find": "\\\\|\\/",
+        "replace": "",
+        "flags": "g"
+      }
+    }
+  ]
+}
